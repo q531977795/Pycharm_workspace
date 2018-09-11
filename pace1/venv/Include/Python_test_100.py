@@ -240,5 +240,17 @@ def test_14():
     getMinYinZi(num)
 
 
+def test_15():
+    '''
+    利用条件运算符的嵌套来完成此题：
+    学习成绩>=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示。
+    :return:
+    '''
+    str = input('请输入成绩（0-100）')
+    points = int(str)
+    print('A' if points >= 90 else ('B' if points>=60 else 'C'))
+    pass
+
+
 if __name__ == '__main__':
-    test_14()
+    test_15()
