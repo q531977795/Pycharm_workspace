@@ -248,9 +248,76 @@ def test_15():
     '''
     str = input('请输入成绩（0-100）')
     points = int(str)
-    print('A' if points >= 90 else ('B' if points>=60 else 'C'))
+    print('A' if points >= 90 else ('B' if points >= 60 else 'C'))
     pass
 
 
+import datetime as dt
+
+
+def test_16():
+    '''
+    输出指定日期格式
+    :return:
+    '''
+    print(dt.date.today().strftime('%Y%m%d'))
+
+    myDay = dt.date(1992, 5, 9)
+    print(myDay.strftime('%Y/%m/%d'))
+
+
+def test_17():
+    '''
+    输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数。
+    :return:
+    '''
+    str = input('请输入任意字符串')
+
+    letter = 0
+    space = 0
+    number = 0
+    other = 0
+
+    for i in range(len(str)):
+        char = str[i]
+        if char.isalpha():
+            letter += 1
+            continue
+        if char.isspace():
+            space += 1
+            continue
+        if char.isdigit():
+            number += 1
+            continue
+        else:
+            other += 1
+    print('字母个数：{}，空格个数：{}，数字个数：{}，其他：{}'.format(letter, space, number, other))
+
+
+# 递归
+def getNa(n, a):
+    if n == 1:
+        return a
+
+    return getNa(n - 1, a) + a * (10 ** (n - 1))
+
+
+def test_18():
+    '''
+    求s=a+aa+aaa+aaaa+...+(n个a)的值，其中a和n都是正整数
+    :return:
+    '''
+    print('求s=a+aa+aaa+aaaa+...+(n个a)的值')
+    a = int(input('(0<a<10)请输入a='))
+    n = int(input('n>0 请输入n='))
+    print('s={}'.format(a), end='')
+    sumNum = a
+    for i in range(2, n + 1):
+        sumNum += getNa(i, a)
+        print('+{}'.format(getNa(i, a)), end='')
+    if sumNum != a:
+        print('={}'.format(sumNum))
+
+
 if __name__ == '__main__':
-    test_15()
+    test_18()
