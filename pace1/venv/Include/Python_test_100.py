@@ -319,5 +319,24 @@ def test_18():
         print('={}'.format(sumNum))
 
 
+def getYinZiList(num):
+
+    return sum
+
+
+def test_19():
+    '''
+    一个数如果恰好等于它的因子之和，这个数就称为"完数"。
+    例如6=1＋2＋3.
+    编程找出1000以内的所有完数。
+    :return:
+    '''
+    l3 = []
+    for i in range(1, 1001):
+        if i == getYinZiList(i):
+            l3.append(i)
+    print('1000以内的所有完数:', l3)
+
+
 if __name__ == '__main__':
-    test_18()
+    test_19()

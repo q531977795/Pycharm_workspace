@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a49aac0-1ba6-4247-bd53-4138611fa1d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Include/Lesson_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Lesson_6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Include/Python_test_100.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/Python_test_100.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,10 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pace1$Python_test_100__1_.coverage" NAME="Python_test_100 (1) Coverage Results" MODIFIED="1536721404072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/pace1$Python_test_100__1_.coverage" NAME="Python_test_100 (1) Coverage Results" MODIFIED="1536820705087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/pace1$Test6.coverage" NAME="Test6 Coverage Results" MODIFIED="1535608140112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/pace1$Python_test_100.coverage" NAME="Python_test_100 Coverage Results" MODIFIED="1536660832482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
-    <SUITE FILE_PATH="coverage/pace1$Lesson_6.coverage" NAME="Lesson_6 Coverage Results" MODIFIED="1536562245514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/pace1$Lesson_11.coverage" NAME="Lesson_11 Coverage Results" MODIFIED="1536827369557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
+    <SUITE FILE_PATH="coverage/pace1$Lesson_6.coverage" NAME="Lesson_6 Coverage Results" MODIFIED="1536828330072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/pace1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1535619717606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -55,20 +58,55 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="90133256">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="959" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="959" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/Include/Python_test_100.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Include/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="310" column="35" lean-forward="true" selection-start-line="310" selection-start-column="35" selection-end-line="310" selection-end-column="35" />
+            <state relative-caret-position="456">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venv/Include/Lesson_6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="247" column="30" lean-forward="true" selection-start-line="247" selection-start-column="30" selection-end-line="247" selection-end-column="30" />
               <folding>
-                <marker date="1536721378661" expanded="true" signature="373:6282" ph="..." />
-                <marker date="1536721378661" expanded="true" signature="4774:6282" ph="..." />
-                <marker date="1536721378661" expanded="true" signature="5042:6282" ph="..." />
-                <marker date="1536721378661" expanded="true" signature="5781:5866" ph="..." />
-                <marker date="1536721378661" expanded="true" signature="5880:6282" ph="..." />
+                <marker date="1536828329143" expanded="true" signature="5292:5380" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,9 +137,10 @@
       <list>
         <option value="$PROJECT_DIR$/venv/Include/Main.py" />
         <option value="$PROJECT_DIR$/venv/Include/Test6.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Python_test_100.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Python_test_100.py" />
+        <option value="$PROJECT_DIR$/venv/Include/Lesson_11.py" />
         <option value="$PROJECT_DIR$/venv/Include/Lesson_6.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Python_test_100.py" />
-        <option value="$PROJECT_DIR$/venv/Include/Python_test_100.py" />
       </list>
     </option>
   </component>
@@ -111,7 +150,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -123,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +206,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Python_test_100 (1)">
+  <component name="RunManager" selected="Python.Lesson_6">
+    <configuration name="Lesson_11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pace1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Include/Lesson_11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Lesson_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pace1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,42 +317,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pace1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Include" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python\PyCharm_workspace\pace1\venv\Include\Lesson_6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Main" />
-      <item itemvalue="Python.Test6" />
       <item itemvalue="Python.Lesson_6" />
       <item itemvalue="Python.Python_test_100" />
       <item itemvalue="Python.Python_test_100 (1)" />
+      <item itemvalue="Python.Lesson_11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lesson_6" />
+        <item itemvalue="Python.Lesson_11" />
         <item itemvalue="Python.Python_test_100 (1)" />
         <item itemvalue="Python.Python_test_100" />
-        <item itemvalue="Python.Lesson_6" />
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.Test6" />
       </list>
     </recent_temporary>
   </component>
@@ -312,12 +351,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21045576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45957446" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30212766" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,6 +395,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Python_test_100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="331" column="12" selection-start-line="331" selection-start-column="12" selection-end-line="331" selection-end-column="12" />
+          <folding>
+            <marker date="1536821313586" expanded="true" signature="373:6566" ph="..." />
+            <marker date="1536821313586" expanded="true" signature="4774:6566" ph="..." />
+            <marker date="1536821313586" expanded="true" signature="5042:6566" ph="..." />
+            <marker date="1536821313586" expanded="true" signature="5781:5866" ph="..." />
+            <marker date="1536821313586" expanded="true" signature="5880:6566" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Include/Lesson_11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -365,28 +425,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Include/Lesson_6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2009">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="188">
+          <caret line="247" column="30" lean-forward="true" selection-start-line="247" selection-start-column="30" selection-end-line="247" selection-end-column="30" />
           <folding>
-            <marker date="1536716597103" expanded="true" signature="995:998" ph="..." />
-            <marker date="1536716597103" expanded="true" signature="1633:1847" ph="..." />
-            <marker date="1536716597103" expanded="true" signature="2292:2367" ph="..." />
-            <marker date="1536716597103" expanded="true" signature="3714:5190" ph="..." />
-            <marker date="1536716597103" expanded="true" signature="3874:5190" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Include/Python_test_100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="310" column="35" lean-forward="true" selection-start-line="310" selection-start-column="35" selection-end-line="310" selection-end-column="35" />
-          <folding>
-            <marker date="1536721378661" expanded="true" signature="373:6282" ph="..." />
-            <marker date="1536721378661" expanded="true" signature="4774:6282" ph="..." />
-            <marker date="1536721378661" expanded="true" signature="5042:6282" ph="..." />
-            <marker date="1536721378661" expanded="true" signature="5781:5866" ph="..." />
-            <marker date="1536721378661" expanded="true" signature="5880:6282" ph="..." />
+            <marker date="1536828329143" expanded="true" signature="5292:5380" ph="..." />
           </folding>
         </state>
       </provider>
