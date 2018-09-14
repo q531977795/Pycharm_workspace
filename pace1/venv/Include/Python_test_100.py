@@ -272,7 +272,6 @@ def test_17():
     :return:
     '''
     str = input('请输入任意字符串')
-
     letter = 0
     space = 0
     number = 0
@@ -320,7 +319,6 @@ def test_18():
 
 
 def getYinZiList(num):
-
     return sum
 
 

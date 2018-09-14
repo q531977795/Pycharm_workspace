@@ -247,7 +247,8 @@ def test_11():
     for i, j, k in l1:
         print(i, '--', j, '--', k)
 
-    #############  ############ 2018/09/14 字典，键无法修改，值可以修改 ############ ###################
+
+#############  ############ 2018/09/14 字典，键无法修改，值可以修改 ############ ###################
 
 
 def test_12():
@@ -271,7 +272,7 @@ def test_13():
     set_4.add('libeibei')
     set_3.update([1, 2, 3, 4, 5], (6, 7, 8, 9, 10), {"name", "what"})
 
-    print(len(set_3))
+    print(len(set_1))
 
 
 def test_14():
@@ -302,5 +303,56 @@ def test_14():
     # 集合 set
 
 
+# 集合中的元素，无重复的元素
+# 可以用来排除重复
+# remove , discard , pop
+# 集合的交叉并补intersection
+# frozen set 冰冻集合
+def test_15():
+    set_1 = {(1, 2, 3), (4, 5, 6), (7, 8, 9)}
+    list_1 = [1, 1, 2, 2, 3, 4, 5, 12123, 12213, 88]
+    set_1.add('name')
+    print(set_1)
+    set_1 = set(list_1)
+    print(id(list_1))
+    set_1.pop()
+    print(id(list_1))
+
+    set_2 = {1, 2, 3, 4, 5, 6, 7, 8}
+    set_3 = {7, 8, 9, 10, 11, 12, 13}
+    set_4 = set_2.intersection(set_3)
+    set_5 = set_2.difference(set_3)
+    print(set_4, set_5)
+    print(set_4.issubset(set_2))
+
+    s = frozenset()
+
+
+def test_16():
+    '''
+    dict 字典
+    get()
+    fromkeys
+    :return:
+    '''
+    d1 = {1: 'name', 2: 'age'}
+    d2 = dict(name=1, age=18)
+    print(d1)
+    print(d2)
+    keys = d1.keys()
+    values = d1.values()
+    itmes = d1.items()
+    print(keys, values, itmes)
+    str = d1.get(4, 100)
+    print(str)
+
+    l1 = ['name', 'age', 'school']
+    l2 = ['juanmaomei', '24', 'nanjingyoudian']
+    d5 = dict.fromkeys(l1, 'sss')
+    print(d5)
+    d6 = dict(zip(l1, l2))
+    print(d6)
+
+
 if __name__ == '__main__':
-    test_14()
+    test_16()
