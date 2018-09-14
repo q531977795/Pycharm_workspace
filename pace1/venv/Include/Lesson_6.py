@@ -243,11 +243,64 @@ def test():
 
 
 def test_11():
-    l1=[(1,2,3),[4,5,6],[7,8,9]]
-    for i,j,k in l1:
-        print(i,'--',j,'--',k)
+    l1 = [(1, 2, 3), [4, 5, 6], [7, 8, 9]]
+    for i, j, k in l1:
+        print(i, '--', j, '--', k)
+
+    #############  ############ 2018/09/14 字典，键无法修改，值可以修改 ############ ###################
+
+
+def test_12():
+    dict_1 = {'name': 'libeibei', 'age': 26, 'sex': 'femal', 'name': 'fuck'}
+    # dict_1['name'] = 'meizi'
+    dict_1['school'] = 'zhongyuangong'
+    del dict_1['age']
+    # print(dict_1)
+    # 元祖可充当键
+    dict_2 = {('name', 'age'): 1}
+
+    for (i, j) in dict_1.items():
+        print(i, ":", j)
+
+
+def test_13():
+    set_1 = {1, 2, 3, 4}
+    set_2 = {}  # 创建空字典
+    set_3 = set()  # 创建空集合
+    set_4 = set(('111', '222'))
+    set_4.add('libeibei')
+    set_3.update([1, 2, 3, 4, 5], (6, 7, 8, 9, 10), {"name", "what"})
+
+    print(len(set_3))
+
+
+def test_14():
+    '''
+    迭代器
+    :return:
+    '''
+    # 列表：list
+    list_1 = [1, 2, 3, 4]
+
+    it_1 = iter(list_1)
+    for i in it_1:
+        print(i, end=" ")
+    print()
+    # 元组 tuple
+    tuple_2 = ('tuple_1', 'tuple_2', 'tuple_3', 'tuple_4',)
+    it_2 = iter(tuple_2)
+    for j in it_2:
+        print(j, end=' ')
+    print()
+    # 字典 dict
+    dict_3 = {1: 'name', 2: 'age', 3: 'clear'}
+
+    for i in dict_3:
+        print(i, '--', dict_3[i], end=" ")
+
+    print(dict_3.values())  # values返回值是由元素值组成的一个列表
+    # 集合 set
 
 
 if __name__ == '__main__':
-    test_11()
-    pass
+    test_14()
